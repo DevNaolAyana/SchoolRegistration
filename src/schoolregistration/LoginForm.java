@@ -134,7 +134,7 @@ public class LoginForm extends javax.swing.JFrame {
           try {
         Class.forName("org.apache.derby.jdbc.ClientDriver");
         Connection conn = DriverManager.getConnection(
-            "jdbc:derby://localhost:1527/StuRegDB", "naol", "4402");
+            "jdbc:derby://localhost:1527/StuRegDB", "naol", "1111");
         Statement st = conn.createStatement();
         
         String username = jTextField1.getText();
